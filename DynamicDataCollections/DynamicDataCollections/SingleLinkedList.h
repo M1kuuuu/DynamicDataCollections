@@ -1,13 +1,6 @@
 #pragma once
 #include <iostream>
 
-//односвязный список
-//для списка характерно
-//добовалять - Append(value)
-//убирать - Remove(value), RemoveFromEnd(), RemoveFromBegin()
-//вставлять в позицию - Insert(valuePosition, value)
-//поиск элемента в списке IsContain(value)
-
 template <typename T>
 class SingleLinkedList
 {
